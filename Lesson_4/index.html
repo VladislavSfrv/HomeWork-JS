@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Задание 1
+        // Необходимо с помощью цикла for вывести следующие 11 строк в консоль:
+        // 0 – это ноль
+        // 1 – нечетное число
+        // 2 – четное число
+        // 3 – нечетное число
+
+        // for (let i = 0; i < 11; i++) {
+        //     if (i === 0) {
+        //         console.log("0 - это ноль");
+        //     } else if(i % 2 === 0){
+        //         console.log(`${i} - это четное число`);
+        //     } else{
+        //         console.log(`${i} - это нечетное число`)
+        //     }
+        // }
+
+        // Задание 2
+        // Дан массив [1, 2, 3, 4, 5, 6, 7]
+        // Сделайте из этого массива следующий [1, 2, 3, 6, 7]
+
+        // const arr = [1, 2, 3, 4, 5, 6, 7];
+        // const newArray = [];
+
+        // for (let i = 0; i < arr.length; i++) {
+        //     if(arr[i] != 4 && arr[i] != 5){
+        //         newArray.push(arr[i]);
+        //     }
+        // }
+        // console.log(newArray);
+
+        // Задание 3
+        // Используя Math.random() вам необходимо генерировать цифры от 0 до 9, 
+        // и создать массив состоящий из 5 таких элементов
+        // 1. Рассчитать сумму элементов этого массива
+        // 2. Найти минимальное число
+        // 3. Найти есть ли в этом массиве число 3
+
+        // let randomNumber = Math.floor(Math.random( ) * (9+1));    
+        // const arr = [];
+        // while(arr.length < 6){
+        //     randomNumber = Math.floor(Math.random( ) * (9+1));    
+        //     arr.push(randomNumber);
+        // }
+        // console.log(arr);
+
+        // let sum = 0;
+        // for (let i = 0; i < arr.length; i++) {
+        //     sum += arr[i];
+        // }
+        // console.log(`Сумма всех элементов равна - ${sum}`);
+
+        // let min = arr[0];
+        // for (let i = 0; i < arr.length; i++) {
+        //     if(min > arr[i]){
+        //         min = arr[i];
+        //     }
+        // }
+        // console.log(`Минимальное число - ${min}`);
+
+        // for (let i = 0; i < arr.length; i++) {
+        //     if(arr[i] === 3){
+        //         console.log("Есть ли число 3 в массиве: Да");
+        //         break;
+        //     }else if(i === arr.length - 1){
+        //         console.log("Есть ли в массиве число 3: Нет");
+        //     }
+        // }
+    </script>
+</body>
+</html>
